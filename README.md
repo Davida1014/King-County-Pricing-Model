@@ -17,14 +17,14 @@ The following steps were taken to create price predictions:
 # Results
 The most successful multiple linear regression model was generated using polynomial features, KBest feature selection, and Lasso. Recursive feature elimination was also explored but did not prove as successful as the aforementioned model.
 
-The most significant indicators of price in this model were high house square footage, proximity to houses with high square footage, high grade in the King County grading system, and location.
+The most significant indicators of price in this model were high house square footage, proximity to houses with high square footage, high grade in the King County grading system, and location. Below are visualiztions of house square footage as related to price, which shows a clear upward trend, as well as exponents of grades, which similarly shows an upward trend. This is all reflected in these features' coefficients in the final model.
+![Screen Shot 2020-12-07 at 12.57.57 AM](./images/Screen Shot 2020-12-07 at 12.57.57 AM.png)
+![Screen Shot 2020-12-07 at 12.55.00 AM](./images/Screen Shot 2020-12-07 at 12.55.00 AM.png)
 
 # Summary
 Analysis of existing and engineered features in the King County housing data set revealed square footage, neighbor square footage, grade, and distance and high predictors of house price. Other features that were expected to be strong predictors, such as waterfront views or season sold, did not impact prices as much as expected. 
 
-The most successful model with the lowest testing error was achieved through a combination of polynomial feature creation, KBest feature selection, and Lasso. Below are visualiztions of house square footage as related to price, which shows a clear upward trend, as well as exponents of grades, which similarly shows an upward trend. This is all reflected in these features' coefficients in the final model.
-![Screen Shot 2020-12-07 at 12.57.57 AM](./images/Screen Shot 2020-12-07 at 12.57.57 AM.png)
-![Screen Shot 2020-12-07 at 12.55.00 AM](./images/Screen Shot 2020-12-07 at 12.55.00 AM.png)
+The most successful model with the lowest testing error was achieved through a combination of polynomial feature creation, KBest feature selection, and Lasso.
 
 
 
@@ -36,14 +36,14 @@ Areas for further research include:
 4. Distance to colleges and universities
 
 # Repository Structure
--data                                # data folder
+-data (data folder)
 
--reference                           # project reference files
+-reference (project reference files)
 
--models                              # final regression model and scaler
+-models (final regression model and scaler)
 
--results                             # final prediction notebook, model implementation, predicted prices
+-results (final prediction notebook, model implementation, predicted prices)
 
--King County Project Notebook.ipynb  # project notebook with EDA and model creation
+-King County Project Notebook.ipynb (project notebook with EDA and model creation)
 
 -README.md
