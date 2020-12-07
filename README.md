@@ -41,13 +41,15 @@ Areas for further research include:
 4. Distance to colleges and universities
 
 # Repository Structure
--data (data folder)
+-Data (data folder)
 
--reference (project reference files)
+-Images (image folder)
 
--models (final regression model and scaler)
+-Reference (project reference files, working notebook)
 
--results (final prediction notebook, model implementation, predicted prices)
+-Results (final prediction notebook, model implementation, predicted prices)
+
+-Scaler, Model (final regression scaler and model)
 
 -King County Project Notebook.ipynb (project notebook with EDA and model creation)
 
