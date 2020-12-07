@@ -18,8 +18,8 @@ The following steps were taken to create price predictions:
 The most successful multiple linear regression model was generated using polynomial features, KBest feature selection, and Lasso. Recursive feature elimination was also explored but did not prove as successful as the aforementioned model.
 
 The most significant indicators of price in this model were high house square footage, proximity to houses with high square footage, high grade in the King County grading system, and location. Below are visualiztions of house square footage as related to price, which shows a clear upward trend, as well as exponents of grades, which similarly shows an upward trend. This is all reflected in these features' coefficients in the final model.
-![Screen Shot 2020-12-07 at 12.57.57 AM](./images/Screen Shot 2020-12-07 at 12.57.57 AM.png)
-![Screen Shot 2020-12-07 at 12.55.00 AM](./images/Screen Shot 2020-12-07 at 12.55.00 AM.png)
+![Screen Shot 2020-12-07 at 12.57.57 AM](https://github.com/Davida1014/King-County-Pricing-Model/blob/main/Images/Screen%20Shot%202020-12-07%20at%2012.57.57%20AM.png?raw=true)
+![Screen Shot 2020-12-07 at 12.55.00 AM](https://github.com/Davida1014/King-County-Pricing-Model/blob/main/Images/Screen%20Shot%202020-12-07%20at%2012.55.00%20AM.png?raw=true)
 
 # Summary
 Analysis of existing and engineered features in the King County housing data set revealed square footage, neighbor square footage, grade, and distance and high predictors of house price. Other features that were expected to be strong predictors, such as waterfront views or season sold, did not impact prices as much as expected. 
