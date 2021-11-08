@@ -3,7 +3,7 @@
 ![seattle-1200x487](https://github.com/Davida1014/King-County-Pricing-Model/blob/main/Images/seattle-1200x487.jpg?raw=true)
 
 # Overview
-This project seeks to create a model that predicts house prices in King County, WA using multiple linear regression and feature modeling and training. This represents the final project in Phase 2 of Flatiron School's Data Science immersive program.
+This project successfully creates a model that predicts house prices in King County, WA using multiple linear regression and feature modeling and training. This represents the final project in Phase 2 of Flatiron School's Data Science immersive program.
 
 # Business Problem
 A King County real estate company is trying to determine what types of houses to focus on selling. Possible features that may impact prices include location, square-footage, number of stories, and more. This model seeks to determine which features to focus on to maximize selling price.
